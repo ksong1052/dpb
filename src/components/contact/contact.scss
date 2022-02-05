@@ -1,0 +1,27 @@
+// #contact-center {
+//   place-items: center center;
+// }
+
+// #contact-in-form {
+//   max-width: 330px;
+// }
+
+// .contact {
+//   display: grid;
+
+//   .bootstrapLogo {
+//     width: 72px;
+//     height: 72px;
+//   }
+// }
+
+.contact {
+  .container {
+    .row {
+      img {
+        width: 80%;
+        height: 80%;
+      }
+    }
+  }
+}

@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+// Portfolio: https://www.youtube.com/watch?v=nxO4kekHtMk
+// Bootstrap: https://www.youtube.com/watch?v=nxO4kekHtMk
+
+// import './App.scss';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// import Main from './pages/main/Main';
+// import Contact from './components/contact/Contact';
+// import NotFound from './pages/notFound/NotFound';
+
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route exact path="/" element={<Main />} />
+//         <Route exact path="/contact" element={<Contact />} />
+//         <Route path="*" element={<NotFound />} />
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
+
+// export default App;
+
+import { useEffect } from 'react';
+import './App.scss';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+import Home from './pages/home/Home';
+// import Contact from './components/contact/Contact';
+import NotFound from './pages/notFound/NotFound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        {/* <Route exact path="/contact" component={Contact} /> */}
+        <Route path="*" component={NotFound} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
