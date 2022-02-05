@@ -59,7 +59,7 @@ const Project = () => {
                 <FontAwesomeIcon icon={faLaptopCode} className="fa-1x mb-1" />
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Details</a>
+                <a href="https://priceless-rosalind-8d39ff.netlify.app/" class="btn btn-primary">Details</a>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Project = () => {
                 <FontAwesomeIcon icon={faCode} className="fa-2x p-2 bg-white text-dark rounded mb-2" />
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary bg-white text-dark">Details</a>
+                <a href="https://priceless-rosalind-8d39ff.netlify.app/" class="btn btn-primary bg-white text-dark">Details</a>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Project = () => {
                 <FontAwesomeIcon icon={faUserFriends} className="fa-1x mb-1" />
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Details</a>
+                <a href="https://priceless-rosalind-8d39ff.netlify.app/" class="btn btn-primary">Details</a>
               </div>
             </div>
           </div>

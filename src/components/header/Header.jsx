@@ -7,7 +7,7 @@ const Header = () => {
     <div classNameName="header" id="home">
       <nav className="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
         <div className="container-fluid">         
-          <h2><a className="navbar-brand fs-2 text-center" href="#">
+          <h2><a className="navbar-brand fs-2 text-center" href="#home">
             <FontAwesomeIcon icon={faLaptopCode} className="fa-sm" />            
             &nbsp; Daniel's <span className="text-primary">Life</span>
           </a></h2>
